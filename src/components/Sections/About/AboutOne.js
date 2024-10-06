@@ -47,7 +47,7 @@ const AboutOne = () => {
             <div className="px-5 border-l border-white counter-item">
               <div className="flex items-center">
                 <div className="text-white count-number heading3">25</div>
-                <span className="text-white heading3">m</span>
+                <span className="text-white capitalize heading3">m</span>
               </div>
               <div className="mt-1 text-white body1">
                 2023 Total sales in units

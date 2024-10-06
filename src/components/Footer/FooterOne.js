@@ -1,12 +1,20 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import * as Icon from "@phosphor-icons/react/dist/ssr";
 import serviceData from "@/data/service/data.json";
 import { convertToSlug } from "@/common/utils";
+import { useEffect, useState } from "react";
 
 export default function FooterOne({ classname }) {
   const date = new Date();
   const year = date.getUTCFullYear();
+  const [el, setEl] = useState(null);
+  useEffect(() => {
+    setEl(document.getElementById("success-stories"));
+  }, []);
+  console.log({ el });
 
   return (
     <footer id="footer">
@@ -68,14 +76,19 @@ export default function FooterOne({ classname }) {
                       </Link>
                     </li>
                     <li className="mt-2">
-                      <Link
+                      <button
+                        onClick={() =>
+                          window.scrollTo({
+                            top: el.offsetTop - 60,
+                            behavior: "smooth",
+                          })
+                        }
                         className={`caption1 hover-underline ${
                           classname && "underline-white"
                         }`}
-                        href="/company/testimonials"
                       >
                         Success stories
-                      </Link>
+                      </button>
                     </li>
                   </ul>
                 </div>

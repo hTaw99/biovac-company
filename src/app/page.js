@@ -48,3 +48,19 @@ export default function Home() {
     </>
   );
 }
+
+// import { useRef, useCallback, MutableRefObject } from 'react';
+
+// const HEADER_HEIGHT = 60;
+
+// export type UseScrollToElement = [MutableRefObject<HTMLElement>, () => void];
+
+// export function useScrollToElement(): UseScrollToElement {
+//     const ref = useRef<HTMLElement>(null!);
+
+//     const scrollToElement = useCallback(() => {
+//         window.scrollTo({ top: ref.current?.offsetTop - HEADER_HEIGHT, behavior: 'smooth' });
+//     }, []);
+
+//     return [ref, scrollToElement];
+// }

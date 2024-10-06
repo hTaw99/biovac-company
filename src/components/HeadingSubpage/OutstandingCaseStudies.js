@@ -1,36 +1,46 @@
-import React from 'react'
-import Link from 'next/link'
-import { convertToSlug } from '@/common/utils'
-import Image from 'next/image'
+import React from "react";
+import Image from "next/image";
 
-const OutstandingCaseStudies = ({ data, showDesc }) => {
-    return (
-        <div className="heading-content">
-            <div className="container">
-                <Link className="content-main style-one block bg-white rounded-3xl overflow-hidden shadow-lg"
-                    href={process.env.PUBLIC_URL + "/case-studies/case-studies-detail1/[slug]"}
-                    as={process.env.PUBLIC_URL + "/case-studies/case-studies-detail1/" + convertToSlug(data.title) + "?id=" + data.id}
-                >
-                    <div className="flex max-lg:flex-col-reverse items-center justify-between relative">
-                        <div className="lg:w-1/2">
-                            <div className="text-content lg:p-20 max-lg:px-8 max-lg:py-10">
-                                <div className="tag text-label">{data.category}</div>
-                                <div className="name heading3 mt-4">{data.title}</div>
-                                {showDesc &&
-                                    <div className="desc body2 text-surface1 mt-4">{data.description}</div>
-                                }
-                            </div>
-                        </div>
-                        <div className="lg:w-1/2 h-full lg:absolute top-0 right-0">
-                            <div className="bg-img h-full">
-                                <Image width={5000} height={5000} className="w-full h-full object-cover" src={data.thumbImage} alt={data.thumbImage} />
-                            </div>
-                        </div>
-                    </div>
-                </Link>
+const OutstandingCaseStudies = () => {
+  return (
+    <div className="heading-content">
+      <div className="container">
+        <div className="block overflow-hidden bg-white shadow-lg content-main style-one rounded-3xl">
+          <div className="relative flex items-center justify-between max-lg:flex-col-reverse">
+            <div className="lg:w-1/2">
+              <div className="text-content lg:p-20 max-lg:px-8 max-lg:py-10">
+                {/* <div className="tag text-label">data.category</div> */}
+                <div className="mt-4 name heading3">
+                  The best partner for your business in Africa and Middle East.
+                </div>
+                <div className="mt-4 desc body2 text-surface1">
+                  Biovac Egypt, established in 2007, is a leading player in the
+                  Egyptian pharmaceutical and vaccine sectors, specializing in
+                  importing WHO-prequalified vaccines and strategic
+                  pharmaceuticals. We have partnered with major international
+                  manufacturers like Biofarma Indonesia and NKF China. We
+                  actively seek strategic partnerships to enhance our reach in
+                  Africa and the Middle East, positioning Biovac as a key
+                  contributor to regional healthcare solutions.
+                </div>
+              </div>
             </div>
+            <div className="top-0 right-0 h-full lg:w-1/2 lg:absolute">
+              <div className="h-full bg-img">
+                <Image
+                  width={1280}
+                  height={5000}
+                  className="object-cover w-full h-full"
+                  src="/images/portfolio/biovac-company.webp"
+                  alt={"data.thumbImage"}
+                />
+              </div>
+            </div>
+          </div>
         </div>
-    )
-}
+      </div>
+    </div>
+  );
+};
 
-export default OutstandingCaseStudies
+export default OutstandingCaseStudies;

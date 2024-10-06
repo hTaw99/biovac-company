@@ -7,13 +7,10 @@
 // @import "~bootstrap/scss/card";
 // @import "~bootstrap/scss/bootstrap-grid";
 //
-@import '~react-calendar/dist/Calendar.css';
 @import "~slick-carousel/slick/slick.css";
-@import '~react-tabs/style/react-tabs.css';
-@import '~react-toastify/dist/ReactToastify.css';
 
 /* project styles */
-@import url('./icons/style.css');
+@import url("./icons/style.css");
 @import "abstracts/functions";
 @import "abstracts/mixins";
 @import "abstracts/variables";
@@ -71,7 +68,6 @@
 @import "pages/product_detail";
 @import "pages/shop";
 @import "pages/wishlist";
-
 
 // Tailwindcss
 @tailwind base;

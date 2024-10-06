@@ -1,26 +1,16 @@
 "use client";
 
-import React, { useState, useRef, useEffect } from "react";
-import { useSelector } from "react-redux";
+import React, { useState } from "react";
 import classNames from "classnames";
 
-import SearchBox from "./SearchBox";
-import CartItemsSidebar from "./CartItemsSidebar";
 import MobileNavSidebar from "./MobileNavSidebar";
 import Link from "next/link";
 import * as Icon from "@phosphor-icons/react/dist/ssr";
 
 export default function MenuFunctionIcons(props) {
-  const cartState = useSelector((state) => state.cartReducer);
   const hide = props.hide || "";
-  const [showSearch, setShowSearch] = useState(false);
-  const [showCart, setShowCart] = useState(false);
   const [showMobileNav, setShowMobileNav] = useState(false);
-  function calcalateTotal(arr) {
-    let total = 0;
-    arr.forEach((item) => (total += item.price * item.cartQuantity));
-    return total;
-  }
+
   return (
     <>
       <div

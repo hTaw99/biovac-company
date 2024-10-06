@@ -19,7 +19,7 @@ const SolutionOne = ({ data, start, limit }) => {
           {data
             .slice(start, isAllItemDisplayed ? ALL : LIMIT)
             .map((item, index) => (
-              <ServiceItem data={item} key={index} type={"style-one"} />
+              <ServiceItem data={item} key={index} />
             ))}
         </div>
         {!isAllItemDisplayed && (

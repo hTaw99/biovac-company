@@ -7,9 +7,9 @@ import { convertToSlug } from "@/common/utils";
 
 export const navbar = [
   { label: "Home", to: "/" },
-  { label: "Products", to: "/pages/products" },
-  { label: "About us", to: "/pages/about-us" },
-  { label: "Contact us", to: "/pages/contact-us" },
+  { label: "Products", to: "/products" },
+  { label: "About us", to: "/about-us" },
+  { label: "Contact us", to: "/contact-us" },
 ];
 
 export default function Navigator({ disableSubmenu, className }) {

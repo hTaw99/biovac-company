@@ -1,5 +1,4 @@
-import PropTypes from "prop-types";
-import * as Icon from "@phosphor-icons/react/dist/ssr"
+import * as Icon from "@phosphor-icons/react/dist/ssr";
 
 export default function Rate({ currentRate, style }) {
   let arrOfStar = [];
@@ -12,7 +11,3 @@ export default function Rate({ currentRate, style }) {
   }
   return <div className="rate">{arrOfStar}</div>;
 }
-
-Rate.propTypes = {
-  currentRate: PropTypes.number,
-};

@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import classNames from "classnames";
 
 export default function Select(props) {
@@ -32,8 +31,3 @@ export default function Select(props) {
     </select>
   );
 }
-
-Select.propTypes = {
-  options: PropTypes.array,
-  className: PropTypes.string,
-};

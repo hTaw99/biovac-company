@@ -15,7 +15,7 @@ export default function TestimonialOne({ classname, data }) {
   };
 
   return (
-    <section className="testimonial-block style-one">
+    <section id="success-stories" className="testimonial-block style-one">
       <div className="container py-10 border-b lg:py-20 md:py-14 border-outline">
         <div className="mb-6 max-lg:w-full">
           <div className="tag text-label">Proven Successes</div>
@@ -45,10 +45,6 @@ export default function TestimonialOne({ classname, data }) {
                       <p className="mt-4 whitespace-normal service-desc">
                         {item.description}
                       </p>
-                      {/* <div className="mt-4 infor">
-                        <span className="block pb-1 heading6">{item.name}</span>
-                        <span className="text-surface1">{item.company}</span>
-                      </div> */}
                     </div>
                   </SwiperSlide>
                 ))}
@@ -57,7 +53,7 @@ export default function TestimonialOne({ classname, data }) {
             <div className="top-0 right-0 list-avatar md:absolute sm:w-5/12 md:h-full max-md:w-full">
               {data.map((item, index) => (
                 <div
-                  className={`bg-img w-full h-full ${
+                  className={`bg-img w-full  ${
                     index === activeIndex ? "active" : ""
                   }`}
                   key={index}
@@ -67,7 +63,7 @@ export default function TestimonialOne({ classname, data }) {
                     height={370}
                     src={item.image}
                     alt={item.image}
-                    className={`w-full h-full object-cover `}
+                    className={`w-full h-[370px] sm:h-full object-cover `}
                   />
                 </div>
               ))}
