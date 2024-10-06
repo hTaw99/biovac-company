@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "icon": "icon-phone-sync",
+    "title": "We Play the Game Right",
+    "desc": "Our strategic market insight ensures that we make the right moves to drive success."
+  },
+  {
+    "id": "2",
+    "icon": "icon-user-sync",
+    "title": "Masters of Regulatory Navigation",
+    "desc": "Our team has unmatched expertise in handling regulatory procedures for pharmaceutical and biological product registrations, thanks to key personnel with high-level experience in the EDA and UPA"
+  },
+  {
+    "id": "3",
+    "icon": "icon-device-cloud",
+    "title": "Business Development that Delivers",
+    "desc": "Our dedicated Business Development team doesn’t just create opportunities; they turn them into real sales and export successes"
+  },
+  {
+    "id": "4",
+    "icon": "icon-cloud-dots",
+    "title": "Always On, Always Responsive",
+    "desc": "Quick, effective communication is at the heart of our operations—we’re available when you need us."
+  },
+  {
+    "id": "5",
+    "icon": "icon-phone-cloud",
+    "title": "Geared for Ambitious Growth",
+    "desc": "We've recently partnered with a top-tier company to manage our field sales and marketing efforts, aligning with our plans for rapid expansion."
+  },
+  {
+    "id": "6",
+    "icon": "icon-device-sync",
+    "title": "Sales That Speak for Themselves",
+    "desc": " With over $5 million in annual tender sales, our numbers prove our market dominance."
+  },
+  {
+    "id": "7",
+    "icon": "Bank",
+    "title": "15 Years of Credibility",
+    "desc": "Our longstanding presence in the market speaks volumes about our reliability and expertise."
+  },
+  {
+    "id": "8",
+    "icon": "Rocket",
+    "title": "Trust Built on Exclusivity",
+    "desc": "Our numerous exclusive agreements are a direct reflection of the trust and confidence our partners place in us."
+  },
+  {
+    "id": "9",
+    "icon": "FirstAidKit",
+    "title": "Market Experts at the Forefront",
+    "desc": "We’re always ahead of the curve, staying fully informed of every tender opportunity in Egypt."
+  },
+  {
+    "id": "10",
+    "icon": "AirplaneTakeoff",
+    "title": "Fully Licensed and Compliant",
+    "desc": "We handle all regulatory hurdles for you, with every necessary government license and approval in place."
+  },
+  {
+    "id": "11",
+    "icon": "Warehouse",
+    "title": "We Have Never Lost a Partnership",
+    "desc": "Our perfect partnership track record is proof of our unwavering reliability and client satisfaction."
+  },
+  {
+    "id": "12",
+    "icon": "Wrench",
+    "title": "We Handle It All",
+    "desc": "From import to distribution, we take care of everything, giving you peace of mind with our seamless, end-to-end expertise."
+  }
+]

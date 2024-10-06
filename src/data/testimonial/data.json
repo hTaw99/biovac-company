@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "image": "/images/success-stories/enoxaparine.jpg",
+    "name": "Alexander Ball",
+    "company": "CEO Digital Avitex",
+    "date": "2 days ago",
+    "review": "A Milestone Achievement in Enoxaparin Sodium Tender",
+    "description": "Biovac Egypt proudly announces a significant milestone in our journey with the successful acquisition of a contract for Enoxaparin Sodium 40mg and 60mg. This achievement marks the culmination of our diligent efforts, starting with the receipt of registration certificates on April 2, 2024. Following our comprehensive technical and financial proposals for the UPA tender submitted on April 4, we received the awarded letter on August 15, leading to the contract signing on September 20. This prestigious partnership, valued at $4.5 million per year for three years, reinforces our dedication to providing top-quality pharmaceutical solutions and solidifies our leadership in the industry.",
+    "listReply": [
+      {
+        "replyId": 5,
+        "rate": 4
+      },
+      {
+        "replyId": 3,
+        "rate": 5
+      }
+    ],
+    "rate": 5
+  },
+  {
+    "id": 2,
+    "image": "/images/success-stories/polio-vaccine.jpg",
+    "name": "Izabel Watt",
+    "company": "UI UX Design TechX",
+    "date": "2 days ago",
+    "review": "Maintaining Egypt's Polio-Free Status",
+    "description": "Over the past decade, Biovac Egypt has consistently excelled in securing tenders for the supply of polio vaccines, providing approximately 20 million doses annually as part of Egypt's mandatory immunization schedule. This achievement, in collaboration with the Ministry of Health and the Egyptian Unified Procurement Authority, has played a crucial role in sustaining Egypt's polio-free status. Our steadfast commitment to public health and effective vaccination programs has ensured a healthier future for the nation and highlights our integral role in the Egyptian healthcare system.",
+    "listReply": [],
+    "rate": 5
+  },
+  {
+    "id": 3,
+    "image": "/images/success-stories/revolution.jpg",
+    "name": "Tony Adams",
+    "company": "Service Dev HiveLab",
+    "date": "2 days ago",
+    "review": "A Beacon of Stability in Challenging Times.",
+    "description": "During the tumultuous period from 2011 to 2014, when Egypt faced significant instability due to revolutions, Biovac Egypt emerged as a vital partner in public health. Despite these challenges, we remained the sole supplier to the Egyptian Government for essential vaccines, including Tetanus Toxoid, Diphtheria, Tetanus, and Pertussis (DTP) vaccines, as well as the Adsorbed TD vaccine. Our unwavering commitment to providing critical healthcare solutions during a time of uncertainty not only showcased our reliability but also significantly enhanced Biovac's credibility within the Egyptian healthcare system.",
+    "listReply": [
+      {
+        "replyId": 8,
+        "rate": 5
+      }
+    ],
+    "rate": 5
+  }
+]

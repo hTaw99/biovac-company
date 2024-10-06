@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "icon": "Medal",
+    "title": "Vaccines",
+    "desc": "We prioritize high-quality vaccines to protect public health."
+  },
+  {
+    "id": "2",
+    "icon": "Money",
+    "title": "Oncology",
+    "desc": "We advance innovative treatments for cancer patients."
+  },
+  {
+    "id": "3",
+    "icon": "Money",
+    "title": "Genetics & Rare Diseases",
+    "desc": "We provide targeted therapies for unique genetic challenges."
+  },
+  {
+    "id": "4",
+    "icon": "ChartLineUp",
+    "title": "Hematology",
+    "desc": "We offer solutions for blood-related disorders."
+  },
+  {
+    "id": "5",
+    "icon": "Medal",
+    "title": "Cardiology",
+    "desc": "We support heart health through effective treatments."
+  },
+  {
+    "id": "6",
+    "icon": "HandEye",
+    "title": "Food Supplements",
+    "desc": "We promote overall well-being with quality supplements."
+  }
+]
