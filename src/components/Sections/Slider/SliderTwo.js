@@ -23,7 +23,7 @@ const heroContent = [
 const SliderTwo = () => {
   return (
     <>
-      <section className="w-full h-[100vh] slider ">
+      <section className="w-full h-[100dvh] slider ">
         <div className="w-full h-full slider-main">
           <Swiper
             spaceBetween={0}

@@ -2,9 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import * as Icon from "@phosphor-icons/react/dist/ssr";
 import serviceData from "@/data/service/data.json";
-import { convertToSlug } from "@/common/utils";
 import { useEffect, useState } from "react";
 
 export default function FooterOne({ classname }) {
@@ -14,7 +12,6 @@ export default function FooterOne({ classname }) {
   useEffect(() => {
     setEl(document.getElementById("success-stories"));
   }, []);
-  console.log({ el });
 
   return (
     <footer id="footer">

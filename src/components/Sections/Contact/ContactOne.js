@@ -26,9 +26,6 @@ const ContactOne = ({ classname }) => {
       }, 1000);
     }
   }, [data.statusCode]);
-
-  console.log({ data, isSuccess });
-
   return (
     <section className={`section-contact py-[60px] ${classname}`}>
       <div className="container">
