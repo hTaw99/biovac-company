@@ -44,51 +44,17 @@ export default function MenuFunctionIcons(props) {
             Contact
           </Link>
         </div>
-        {/* <div className="flex items-center list__icons">
-          {!hide.includes("search") && (
-            <button
-              className="flex-shrink-0 menu-icon -search"
-              onClick={(e) => {
-                e.preventDefault();
-                setShowSearch(true);
-              }}
-              style={{ marginRight: hide.includes("cart") && 0 }}
-            >
-              <Icon.MagnifyingGlass className="text-2xl" />
-            </button>
-          )}
-          {!hide.includes("cart") && (
-            <>
-              <button
-                className="flex-shrink-0 menu-icon -cart"
-                onClick={(e) => {
-                  e.preventDefault();
-                  setShowCart(!showCart);
-                }}
-              >
-                <Icon.Handbag className="text-2xl" />
-                <span className="cart__quantity">{cartState.length}</span>
-              </button>
-              <button
-                className="flex-shrink-0 menu-icon -navbar"
-                onClick={(e) => {
-                  e.preventDefault();
-                  setShowMobileNav(!showMobileNav);
-                }}
-              >
-                <Icon.List className="text-3xl" />
-              </button>
-            </>
-          )}
-          {!hide.includes("button") && (
-            <Link
-              href={"/pages/contact-us"}
-              className="ml-4 button-main max-sm:hidden"
-            >
-              Get A quote
-            </Link>
-          )}
-        </div> */}
+        <div className="flex items-center list__icons">
+          <button
+            className="flex-shrink-0 menu-icon -navbar"
+            onClick={(e) => {
+              e.preventDefault();
+              setShowMobileNav(!showMobileNav);
+            }}
+          >
+            <Icon.List className="text-3xl" />
+          </button>
+        </div>
       </div>
       {/* Search input */}
       {/* <SearchBox showSearch={showSearch} setShowSearch={setShowSearch} /> */}

@@ -29,7 +29,7 @@ export default function BrandOne({ classname }) {
     <section className={`section-brand ${classname}`}>
       <div className="container ">
         <h5 className="text-center heading5">
-          Trusted by specialists all around the world
+          Trusted by partners all around the world
         </h5>
         <div className="flex items-center justify-center mt-7">
           <div className="w-full list lg:w-11/12">

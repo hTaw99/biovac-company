@@ -6,8 +6,8 @@ import MenuFunctionIcons from "../Elements/MenuFunctionIcons";
 
 export default function MenuTwo({ classname }) {
   return (
-    <header className={`menu ${classname} border-b border-line`}>
-      <div className="px-4 xl:px-20">
+    <header className={`menu ${classname} border-b border-grey`}>
+      <div className="container ">
         <div className="menu__wrapper">
           <h1>
             <Link
@@ -17,7 +17,7 @@ export default function MenuTwo({ classname }) {
               <img src="/images/biovac.svg" alt="Logo" />
             </Link>
           </h1>
-          {/* <Navigator className={"style-two"} /> */}
+          <Navigator className={"style-two"} />
           <MenuFunctionIcons hide="button" />
         </div>
       </div>
