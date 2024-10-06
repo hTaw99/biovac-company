@@ -1,6 +1,6 @@
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "@/styles/styles.scss";
-import biovacOgImage from "images/biovac-og.png";
+import biovacOgImage from "@/assets/biovac-og.png";
 
 const plusJakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
