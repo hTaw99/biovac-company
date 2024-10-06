@@ -11,7 +11,7 @@ export default function MenuSix({ classname }) {
         <div className="menu__wrapper">
           <h1>
             <Link href="/" className="block menu__wrapper__logo">
-              <img src="/images/logo.png" alt="Logo" />
+              <img src="/images/biovac.svg" alt="Logo" />
             </Link>
           </h1>
           <Navigator />

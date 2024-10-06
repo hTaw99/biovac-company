@@ -12,8 +12,16 @@ export default function MenuSeven({ classname }) {
           <div className="mennu__inner flex items-center gap-[88px]">
             <h1>
               <Link href="/" className="block menu__wrapper__logo">
-                <img src="/images/logo.png" alt="Logo" className="max-lg:hidden" />
-                <img src="/images/logo-white.svg" alt="Logo" className="lg:hidden" />
+                <img
+                  src="/images/biovac.svg"
+                  alt="Logo"
+                  className="max-lg:hidden"
+                />
+                <img
+                  src="/images/logo-white.svg"
+                  alt="Logo"
+                  className="lg:hidden"
+                />
               </Link>
             </h1>
             <Navigator />

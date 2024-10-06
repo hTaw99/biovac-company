@@ -13,7 +13,7 @@ export default function FooterTwo() {
               <Link href={process.env.PUBLIC_URL + "/"}>
                 <span className="footer-two__content__logo">
                   <img
-                    src={process.env.PUBLIC_URL + "/images/logo.png"}
+                    src={process.env.PUBLIC_URL + "/images/biovac.svg"}
                     alt="Logo"
                   />
                 </span>

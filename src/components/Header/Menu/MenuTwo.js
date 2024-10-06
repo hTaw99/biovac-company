@@ -12,9 +12,9 @@ export default function MenuTwo({ classname }) {
           <h1>
             <Link
               href="/"
-              className="block menu__wrapper__logo w-[150px] mix-blend-multiply bg-blend-multiply"
+              className="block menu__wrapper__logo w-[110px] mix-blend-multiply bg-blend-multiply"
             >
-              <img src="/images/logo.png" alt="Logo" />
+              <img src="/images/biovac.svg" alt="Logo" />
             </Link>
           </h1>
           {/* <Navigator className={"style-two"} /> */}

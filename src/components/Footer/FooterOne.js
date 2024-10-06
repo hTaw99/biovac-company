@@ -26,7 +26,7 @@ export default function FooterOne({ classname }) {
                     />
                   ) : (
                     <Image
-                      src={"/images/logo.png"}
+                      src={"/images/biovac.svg"}
                       width={5000}
                       height={5000}
                       alt="logo"

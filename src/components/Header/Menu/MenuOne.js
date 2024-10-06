@@ -11,8 +11,8 @@ export default function MenuOne({ container }) {
       <div className={renderContainer(container)}>
         <div className="menu__wrapper">
           <h1>
-            <Link href="/" className="block menu__wrapper__logo w-[125px]">
-              <img src="/images/logo.png" alt="Logo" />
+            <Link href="/" className="block menu__wrapper__logo w-[110px]">
+              <img src="/images/biovac.svg" alt="Logo" />
             </Link>
           </h1>
           <Navigator />
