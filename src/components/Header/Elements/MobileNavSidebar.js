@@ -3,7 +3,6 @@ import { CSSTransition } from "react-transition-group";
 import ClientOnlyPortal from "../../../common/ClientOnlyPortal";
 import NavigatorMobile from "./NavigatorMobile";
 
-
 export default function MobileNavSidebar({ showMobileNav, setShowMobileNav }) {
   return (
     <>
@@ -14,7 +13,7 @@ export default function MobileNavSidebar({ showMobileNav, setShowMobileNav }) {
           timeout={200}
           classNames="cart-sidebar"
         >
-          <div className="mt-[64px] overflow-y-scroll navigation-sidebar">
+          <div className="navigation-sidebar">
             <NavigatorMobile />
           </div>
         </CSSTransition>
