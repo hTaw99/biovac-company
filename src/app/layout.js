@@ -16,18 +16,30 @@ export const metadata = {
       "Biovac - The best partner for your business in Africa and Middle East",
     description:
       "Biovac Egypt, established in 2007, is a leading player in the Egyptian pharmaceutical and vaccine sectors, specializing in importing WHO-prequalified vaccines and strategic pharmaceuticals",
-    url: "www.biovacegypt.com",
+    url: "http://www.biovacegypt.com",
     type: "website",
     siteName: "Biovac",
     countryName: "Egypt",
-    images: [{ url: "/src/assets/biovac-og.png", width: 800, height: 600 }],
+    images: [
+      {
+        url: "https://res.cloudinary.com/amrelgendy/image/upload/v1728320907/biovac-og_oxzo3r.png",
+        width: 800,
+        height: 600,
+      },
+    ],
   },
   twitter: {
     title:
       "Biovac - The best partner for your business in Africa and Middle East",
     description:
       "Biovac Egypt, established in 2007, is a leading player in the Egyptian pharmaceutical and vaccine sectors, specializing in importing WHO-prequalified vaccines and strategic pharmaceuticals",
-    images: [{ url: "/src/assets/biovac-og.png", width: 800, height: 600 }],
+    images: [
+      {
+        url: "https://res.cloudinary.com/amrelgendy/image/upload/v1728320907/biovac-og_oxzo3r.png",
+        width: 800,
+        height: 600,
+      },
+    ],
   },
   alternates: {
     canonical: "https://www.biovacegypt.com",
