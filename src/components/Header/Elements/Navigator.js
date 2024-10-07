@@ -8,14 +8,15 @@ export const navbar = [
   { label: "Contact us", to: "/contact-us" },
 ];
 
-export default function Navigator({ disableSubmenu, className }) {
+export default function Navigator({ forHomePage }) {
   const pathname = usePathname();
+  const color = forHomePage ? "text-white" : "";
 
   return (
     <ul className="hidden gap-6 lg:flex">
       {navbar.map((item, index) => (
         <li
-          className={`relative text-white ${
+          className={`relative ${color} ${
             pathname === item.to ? "active" : ""
           }`}
           key={index}

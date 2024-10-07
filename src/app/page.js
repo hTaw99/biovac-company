@@ -21,7 +21,7 @@ import CtaTwo from "@/components/Sections/Cta/CtaTwo";
 export default function Home() {
   return (
     <>
-      <LayoutTwo className="-style-1">
+      <LayoutTwo forHomePage className="-style-1">
         <SliderTwo />
         {/* <SliderOne className="-style-1 lg:py-[60px] py-10" /> */}
         <AboutOne />

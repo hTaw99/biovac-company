@@ -10,6 +10,7 @@ import * as Icon from "@phosphor-icons/react/dist/ssr";
 export default function MenuFunctionIcons(props) {
   const hide = props.hide || "";
   const [showMobileNav, setShowMobileNav] = useState(false);
+  const color = props.forHomePage ? "text-white" : "text-blue";
 
   return (
     <>
@@ -21,7 +22,9 @@ export default function MenuFunctionIcons(props) {
             <span className="flex items-center justify-center w-8 h-8 bg-white rounded-full icon text-blue">
               <Icon.PhoneCall className="flex-shrink-0 text-2xl" />
             </span>
-            <span className="flex-shrink-0 text-white text-button whitespace-nowrap">
+            <span
+              className={`flex-shrink-0 ${color} text-button whitespace-nowrap`}
+            >
               +201112901667
             </span>
           </div>

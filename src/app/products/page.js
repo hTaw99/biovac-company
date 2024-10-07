@@ -10,6 +10,7 @@ import Product from "@/components/Product";
 import productData from "@/data/products.json";
 import { getProductbyFilter } from "@/common/productSelect";
 import { shop } from "@/common/variables";
+import LayoutTwo from "@/components/Layout/LayoutTwo";
 
 export default function OurShop() {
   const pageLimit = 12;
@@ -24,7 +25,7 @@ export default function OurShop() {
   }, [offset, currentSort]);
 
   return (
-    <LayoutOne>
+    <LayoutTwo className="-style-1">
       <Breadcrumb nav2={"Products"} />
       <div className="py-10 border-b list-product-block lg:py-20 sm:py-14 border-outline">
         <div className="container">
@@ -75,6 +76,6 @@ export default function OurShop() {
           </div>
         </div>
       </div>
-    </LayoutOne>
+    </LayoutTwo>
   );
 }
