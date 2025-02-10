@@ -8,7 +8,7 @@ export default function LayoutTwo(props) {
   return (
     <>
       <HeaderTwo forHomePage={props.forHomePage} />
-      {props.children}aas
+      {props.children}
       <FooterOne />
     </>
   );
