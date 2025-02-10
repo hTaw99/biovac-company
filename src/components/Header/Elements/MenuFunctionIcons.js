@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import classNames from "classnames";
 
 import MobileNavSidebar from "./MobileNavSidebar";
@@ -11,6 +11,11 @@ export default function MenuFunctionIcons(props) {
   const hide = props.hide || "";
   const [showMobileNav, setShowMobileNav] = useState(false);
   const color = props.forHomePage ? "text-white" : "text-blue";
+  const [el, setEl] = useState(null);
+
+  useEffect(() => {
+    setEl(document.getElementById("section-contact"));
+  }, []);
 
   return (
     <>
@@ -25,12 +30,12 @@ export default function MenuFunctionIcons(props) {
             <span
               className={`flex-shrink-0 ${color} text-button whitespace-nowrap`}
             >
-              +201112901667
+              +20 10 50 48 9999
             </span>
           </div>
 
           <Link
-            href={"/pages/contact-us"}
+            href={{ pathname: "/", hash: "section-contact" }}
             className="button-main text-button-sm max-sm:hidden"
           >
             Contact

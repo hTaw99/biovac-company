@@ -14,8 +14,8 @@ export const shop = {
     { name: "Default", value: "default" },
     { name: "A to Z Sorting", value: "az" },
     { name: "Z to A Sorting", value: "za" },
-    { name: "Low to High Price Sorting", value: "lowToHigh" },
-    { name: "High to Low Price Sorting", value: "highToLow" },
+    // { name: "Low to High Price Sorting", value: "lowToHigh" },
+    // { name: "High to Low Price Sorting", value: "highToLow" },
   ],
   DEFAULT_VIEW: "grid",
 };

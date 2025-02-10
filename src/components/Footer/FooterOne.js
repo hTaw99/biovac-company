@@ -8,10 +8,6 @@ import { useEffect, useState } from "react";
 export default function FooterOne({ classname }) {
   const date = new Date();
   const year = date.getUTCFullYear();
-  const [el, setEl] = useState(null);
-  useEffect(() => {
-    setEl(document.getElementById("success-stories"));
-  }, []);
 
   return (
     <footer id="footer">
@@ -57,7 +53,7 @@ export default function FooterOne({ classname }) {
                         className={`caption1 hover-underline ${
                           classname && "underline-white"
                         }`}
-                        href="/company/about-us"
+                        href="/about-us"
                       >
                         About us
                       </Link>
@@ -67,25 +63,20 @@ export default function FooterOne({ classname }) {
                         className={`caption1 hover-underline ${
                           classname && "underline-white"
                         }`}
-                        href="/company/our-teams"
+                        href="/products"
                       >
                         Products
                       </Link>
                     </li>
                     <li className="mt-2">
-                      <button
-                        onClick={() =>
-                          window.scrollTo({
-                            top: el.offsetTop - 60,
-                            behavior: "smooth",
-                          })
-                        }
+                      <Link
+                        href={{ pathname: "/", hash: "success-stories" }}
                         className={`caption1 hover-underline ${
                           classname && "underline-white"
                         }`}
                       >
                         Success stories
-                      </button>
+                      </Link>
                     </li>
                   </ul>
                 </div>

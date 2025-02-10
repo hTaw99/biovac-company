@@ -3,9 +3,9 @@ import { usePathname } from "next/navigation";
 
 export const navbar = [
   { label: "Home", to: "/" },
-  { label: "Products", to: "/page/products" },
-  { label: "About us", to: "/page/about-us" },
-  { label: "Contact us", to: "/page/contact-us" },
+  { label: "Products", to: "/products" },
+  { label: "About us", to: "/about-us" },
+  // { label: "Contact us", to: "/contact-us" },
 ];
 
 export default function Navigator({ forHomePage }) {
@@ -21,7 +21,7 @@ export default function Navigator({ forHomePage }) {
           }`}
           key={index}
         >
-          <Link href={process.env.PUBLIC_URL + item.to}>
+          <Link href={item.to}>
             <span>{item.label}</span>
           </Link>
         </li>

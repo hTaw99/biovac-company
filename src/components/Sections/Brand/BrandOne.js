@@ -12,7 +12,6 @@ const logos = [
   "/images/brand/panacea-biotec.png",
   "/images/brand/bio-pharma.png",
   "/images/brand/bionet.svg",
-  "/images/brand/minhai.png",
   "/images/brand/ncpc.png",
   "/images/brand/sk.png",
   "/images/brand/sucb.png",
@@ -63,14 +62,10 @@ export default function BrandOne({ classname }) {
             >
               {logos.map((logo, index) => (
                 <SwiperSlide
-                  className="flex items-center justify-center"
+                  className="flex items-center justify-center "
                   key={index}
                 >
-                  <Link
-                    href={"#!"}
-                    scroll={false}
-                    className="flex w-[150px] h-[70px] items-center justify-center brand-item"
-                  >
+                  <div className="flex w-[150px] h-[70px] items-center justify-center brand-item">
                     <Image
                       width={150}
                       height={44}
@@ -78,7 +73,7 @@ export default function BrandOne({ classname }) {
                       alt="1"
                       className="object-contain w-full h-full"
                     />
-                  </Link>
+                  </div>
                 </SwiperSlide>
               ))}
             </Swiper>

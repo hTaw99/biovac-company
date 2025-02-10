@@ -23,11 +23,14 @@ const ContactOne = ({ classname }) => {
       setTimeout(() => {
         setIsSuccess(false);
         setData({});
-      }, 1000);
+      }, 2000);
     }
   }, [data.statusCode]);
   return (
-    <section className={`section-contact py-[60px] ${classname}`}>
+    <section
+      id="section-contact"
+      className={`section-contact py-[60px] ${classname}`}
+    >
       <div className="container">
         <div className="items-center justify-between lg:flex">
           <div className="w-full text-white content-main xl:w-7/12 lg:w-1/2">
@@ -48,11 +51,11 @@ const ContactOne = ({ classname }) => {
 
             <div className="flex items-center mt-6">
               <Icon.Envelope className="text-xl" />
-              <span className="pl-3 body2">inquiry@biovacegypt.com</span>
+              <span className="pl-3 body2">info@biovacegypt.com</span>
             </div>
             <div className="flex items-center mt-2">
               <Icon.PhoneCall className="text-xl" />
-              <span className="pl-3 body2">+201112901667</span>
+              <span className="pl-3 body2">+20 10 50 48 9999</span>
             </div>
             <div className="flex items-center mt-2">
               <Icon.MapPin className="text-xl" />
@@ -74,7 +77,7 @@ const ContactOne = ({ classname }) => {
             <div className="flex flex-col gap-5 py-6 bg-white form-block rounded-2xl px-7">
               {isSuccess && (
                 <div className="p-2 text-white font-medium text-center rounded-md bg-[#38b000]">
-                  Sended Successfully
+                  Sent Successfully
                 </div>
               )}
               <div className="heading5">Schedule an online call</div>

@@ -12,13 +12,7 @@ function Product(props) {
 
   return (
     <div className={`product-item ${classNames(props.className)}`}>
-      <Link
-        href={`${process.env.PUBLIC_URL}/pages/products-detail/[slug]`}
-        as={`${process.env.PUBLIC_URL}/pages/products-detail/${convertToSlug(
-          data.name.toLowerCase()
-        )}?id=${data.id}`}
-        className="relative block w-full h-full"
-      >
+      <div className="relative block w-full h-full">
         <div className="relative overflow-hidden border rounded-lg product__thumb border-outline bg-surface">
           <div className="flex items-center justify-center w-full py-10 bg-img">
             <Image
@@ -30,10 +24,11 @@ function Product(props) {
             />
           </div>
         </div>
-        <strong className="flex flex-col items-center justify-center px-5 mt-4 overflow-hidden text-center product__info">
+        <strong className="flex flex-col mt-4 overflow-hidden product__info">
           {data.name}
         </strong>
-      </Link>
+        <span className="text-surface2">{data.company}</span>
+      </div>
     </div>
   );
 }

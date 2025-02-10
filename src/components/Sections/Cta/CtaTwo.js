@@ -19,7 +19,7 @@ const CtaTwo = () => {
           </h4>
           <Link
             className="bg-white tra px-6 text-blue py-3 font-semibold rounded transition-all hover:bg-[#f7f7ff] "
-            href="/page/products"
+            href="/products"
           >
             Check products
           </Link>
